@@ -1,23 +1,22 @@
 # updateddns.js
 
-This is a simple node.js script to update Cloudflare DNS records. It seems there are ways to do this in several other languages (which require compiling, etc), but so far no easy ways to do it in javascript. Well, now there is.
+This is a simple node.js script to update Cloudflare DNS records with your current Internet-facing IP address. The main use case for this script is to keep DNS records current with an IP address that tends to change on occasion. 
+
+It seems there are ways to do this in several other languages (which require compiling, etc), but so far no easy ways to do it in javascript. Well, now there is.
 
 You're welcome.
-
-## Overview
-updateddns.js is a script designed to update DNS records on Cloudflare. It fetches the zone ID and updates the DNS records accordingly.
 
 ## Prerequisites
 - Node.js installed on your machine
 - Cloudflare account with API token
 
 ## Installation
-Clone the repository:
+1. Clone the repository:
     ```
     git clone <repository-url>
     cd <repository-directory>
     ```
-Install the required dependencies:
+2. Install the required dependencies:
     ```
     npm install
     ```
