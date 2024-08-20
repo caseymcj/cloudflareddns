@@ -1,10 +1,15 @@
 import { promises as fs } from 'fs';
 
+// These are the parameters that need to be set. domainNames is an array of objects with the
+// zoneName and aRecords for each domain. The aRecords are the subdomains or domains that you
+// want to update with the new IP address.
+const cloudflareAPIKey = '';
+const domainNames = [{zoneName: "example.com", aRecords: ['<domain_or_subdomain>']}];
+
+
+
 const IP_FILE_PATH = './previous_ip.txt';
 const ipRegex = /^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/;
-
-const cloudflareAPIKey = '';
-const domainNames = [{zoneName: "specialopstech.com", aRecords: ['test']}];
 
 // Main function
 async function main() {
