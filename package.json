@@ -1,0 +1,20 @@
+{
+  "name": "cloudflareddns",
+  "version": "1.0.0",
+  "description": "Dynamically update Cloudflare DNS records with your current IP address",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caseymcj/cloudflareddns.git"
+  },
+  "author": "Casey Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caseymcj/cloudflareddns/issues"
+  },
+  "homepage": "https://github.com/caseymcj/cloudflareddns#readme"
+}
